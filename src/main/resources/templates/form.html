@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<form th:action="@{/form/confirm}" method="post">
+    <label>
+        message :
+        <input type="text" name="message">
+    </label>
+    <button>submit</button>
+</form>
+</body>
+</html>
