@@ -5,7 +5,10 @@
     <title>Hello World!</title>
 </head>
 <body>
-message :
-<span th:text="${message}"></span>
+<span th:inline="text">
+    Name : [[${user.name}]]<br>
+    E-mail : [[${user.email}]]<br>
+    Age : [[${user.age}]]<br>
+</span>
 </body>
 </html>
