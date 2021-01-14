@@ -24,6 +24,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: '2.3.7.RELEASE'
+    compile "org.springframework.boot:spring-boot-starter-security"
     compile 'org.webjars:startbootstrap-sb-admin-2:4.0.6'
     compile 'org.webjars:webjars-locator:0.40'
     compileOnly 'org.projectlombok:lombok'
