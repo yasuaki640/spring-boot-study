@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class SecurityController {
     @GetMapping("/")
     public String success() {
-        return "sucess";
+        return "success";
     }
 }
